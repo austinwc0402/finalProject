@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB 115 Final Project</title>
+    </head>
+    <body>
+        <div id="myName"></div>
+        <div id="course"></div>
+
+        <h1 id="h1Resume">Build your Resume</h1>
+
+        <!-- Full name -->
+        <p><strong>Enter your full name:</strong></p>
+        <input type="text" id="fullName" cols='75'><br>
+
+        <!-- Address -->
+        <p><strong>Enter your address:</strong></p>
+        <input type="text" id="address">
+
+        <!-- Phone number -->
+        <p><strong>Enter your phone number:</strong></p>
+        <input type="text" id="phoneNum">
+
+        <!-- Email address -->
+        <p><strong>Enter your email address:</strong></p>
+        <input type="email" id="email">
+
+        <!-- Personal Information -->
+        <p><strong>Enter your personal information:</strong></p>
+        <textarea id="info" cols="75" rows="12"></textarea>
+
+        <!-- Career Objective -->
+        <p><strong>Enter your career objectives:</strong></p>
+        <textarea id="objectives" cols="75" rows="12"></textarea>
+
+        <!-- Educational background -->
+        <p><strong>Enter your educational background:</strong></p>
+        <textarea id="eduBackground" cols="75" rows="12"></textarea>
+
+        <!-- Most recent employment dates -->
+        <p><strong>Enter your most recent employment entry and exit dates:</strong></p>
+        Entry date: <input type="date" name="recentEmployment" id="entryDate1"><br><br>
+        Exit date: <input type="date" name="recentEmployment" id="exitDate1">
+
+        <p><strong>Please enter details of your most recent employment experience:</strong></p>
+        <textarea name="recentEmployment" id="recentEmploymentDetails1" cols="75" rows="12"></textarea>
+
+        <!-- Other prior employment dates -->
+        <p><strong>Enter another employment entry/exit date:</strong></p>
+        Entry date: <input type="date" name="employment" id="entryDate2"><br><br>
+        Exit date: <input type="date" name="employment" id="exitDate2">
+
+        <p><strong>Please enter details of your employment experience:</strong></p>
+        <textarea name="recentEmployment" id="recentEmploymentDetails2" cols="75" rows="12"></textarea>
+
+        <p><strong>Enter another employment entry/exit date:</strong></p>
+        Entry date: <input type="date" name="employment" id="entryDate3"><br><br>
+        Exit date: <input type="date" name="employment" id="exitDate3">
+
+        <p><strong>Please enter details of your employment experience:</strong></p>
+        <textarea name="recentEmployment" id="recentEmploymentDetails3" cols="75" rows="12"></textarea>
+
+        <p><strong>Enter another employment entry/exit date:</strong></p>
+        Entry date: <input type="date" name="employment" id="entryDate4"><br><br>
+        Exit date: <input type="date" name="employment" id="exitDate4">
+
+        <p><strong>Please enter details of your employment experience:</strong></p>
+        <textarea name="recentEmployment" id="recentEmploymentDetails4" cols="75" rows="12"></textarea>
+
+        <!-- Business references -->
+        <p><strong>Enter your business references:</strong></p>
+        <textarea name="references" id="busRef" cols="75" rows="12"></textarea>
+
+        <!-- Line breaks for spacing -->
+        <br><br><br>
+
+        <!-- Form button -->
+        <button id="button" onclick="myWindow()">Create Resume</button>
+
+        <!-- Extra spacing at the bottom -->
+        <br><br>
+    </body>
+    <script src="js/projectJS.js"></script>
+</html>
